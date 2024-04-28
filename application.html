@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body class="container mx-auto bgc p-5"> 
+    <h3 class="colorB"> Registration for SEIP Project &#9997;</h3>
+    <hr class="colorG" >
+    <form action="">
+        <h5>Select Course:(In SEIP project one person will be eligible for one course only) &#9787;</h5>
+        <label for="">First Preference <span class="red"> *</span>:</label> &nbsp;
+        <select name="" id="course" placeholder="select course" class="px-2 py-1" >
+            <option value="">select course</option>
+            <option value="">custom course</option>
+        </select>
+        <br> <br> <br>
+        <label for="">Name:<span class="red"> *</span> </label> <br>
+        <input type="text" placeholder="type your name" size="50" class="p-1">
+        <br> <br>
+        <div class="d-flex">
+            <div>
+                <label for="">Father Name:<span class="red"> *</span></label> <br>
+                <input type="text" placeholder="type your Father name" size="40" class="p-1">
+                </div> &nbsp; &nbsp;
+                <div>
+                    <label for="">Mother Name:<span class="red"> *</span></label> <br>
+                    <input type="text" placeholder="type your Mother name" size="40" class="p-1">
+                    </div>&nbsp; &nbsp;
+                    <div id="gender">
+                        <label for="">Gender: <span class="red"> *</span></label> <br>
+                        
+                        <select name="" id="gender" placeholder="select Gender" class="px-2 py-2">
+                            <option value="">Select Gender</option>
+                            <option value="">male</option>
+                            <option value="">female</option>
+                        </select>
+                        </div>
+        </div> <br>
+
+        <label for="">National ID:<span class="red"> *</span></label> <br>
+      <input type="number" placeholder="type your National ID " size="70" class="p-1"> <br>
+      <br>
+        
+       <div class="d-flex">
+        <div>
+            <label for="">Email:<span class="red"> *</span></label> <br>
+            <input type="email" placeholder="type your email " size="40" class="p-1"> &nbsp; 
+        </div>
+        
+        <div>
+            
+        <label for=""> Mobile:<span class="red"> *</span></label> <br>
+        <input type="number" placeholder="type your  Mobile " size="40" class="p-1"> 
+
+
+        </div>
+  
+       </div>
+       <br>
+       <label for="">Password<span class="red"> *</span> </label> <br>
+        <input type="password" placeholder="type your pass" size="50" class="p-1">
+        <br> <br>
+        <div class="d-flex"> 
+        <!-- dob -->
+        <div>
+            <label for=""> Date of Birth:<span class="red">*</span> </label> <br>
+            <select name="" id="" class="p-1" class="p-1" >
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+            <select name="" id="" class="p-1" class="p-1">
+                <option value="">Jan</option>
+                <option value="">Feb</option>
+                <option value="">Mar</option>
+                <option value="">Apr</option>
+            </select>
+            <select name="" id="" class="p-1" class="p-1">
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+            </select>
+            <input type="date" min="1998-01-01" max="2030-12-31">
+        </div> &nbsp;   &nbsp; &nbsp;   &nbsp;  
+         <div>
+            <label for="">Religion: <span class="red"> *</span> </label> <br>
+            <select name="" id="religion" placeholder="select Religion " class="p-1">
+                <option value="">select Religion</option>
+                <option value="">Islam</option>
+                <option value="">Islam</option>
+                <option value="">Islam</option>
+            </select>
+         </div>&nbsp;   &nbsp;&nbsp;   &nbsp;  
+         <div>
+            <label for="">Ethnic Group:<span class="red"> *</span> </label> <br>
+            <select name="" id="ethnic" placeholder="select Religion" class="p-1" >
+                <option value="">select Religion</option>
+                <option value="">Islam</option>
+                <option value="">Islam</option>
+                <option value="">Islam</option>
+            </select>
+         </div>
+    </div>
+<br>
+
+    <div class="d-flex" >
+      <div>
+        <label for="">Is Employed?</label>
+        <label for=""><input type="radio" name="y"> yes</label>
+        <label for=""><input type="radio" name="y"> no</label>
+   
+      </div> &nbsp;  &nbsp;  &nbsp; 
+      <div>
+        <label for="">Monthly Income:<span class="red"> *</span> </label> <br>
+        <input type="number" placeholder="type your Monthly Income" size="50" class="p-1">
+      </div>
+    </div> <br>
+    <label for="">Address:<span class="red"> *</span> </label> <br>
+        <input type="text" placeholder="type your Monthly Income" size="50" class="p-1"> <br> <br>
+
+        <label for="" class="fs-2" >Photo  </label> <br>
+        <hr>
+        <input type="file" accept="image/png, image/gif, image/jpeg"  size="50" class="p-1"> <br> <br>
+
+
+    <div class="d-flex">
+        <button class="btn-warning" type="submit">Save</button>  &nbsp;  &nbsp;  &nbsp; 
+        <button class="btn-danger" type="submit">Reset</button>
+    </div>
+    <br>
+    <br>
+     
+    </form>
+
+    <audio src="bd_national_anthem.mp3" controls muted loop></audio>
+    <video src="Video-20230103_113044-Meeting Recording.mp4" controls muted loop width="300" ></video>
+    <br>
+    <div class="d-flex">
+        <div>
+            <iframe width="500" height="350" src="https://www.youtube.com/embed/6e9-lv78e4Y?si=IrOT7ZmOQ2Mwv2Bk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14857.667864989557!2d91.99059958162488!3d21.412849773084844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adc62ee2083e13%3A0x4345ddcacbc6eb59!2z4KaV4Kay4Ka-4Kak4Kay4KeALCDgppXgppXgp43gprjgpqzgpr7gppzgpr7gprA!5e0!3m2!1sbn!2sbd!4v1714325393532!5m2!1sbn!2sbd" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- html entities &nbsp; -->
+
+    <!-- https://www.freeformatter.com/html-entities.html
+    https://www.toptal.com/designers/htmlarrows/symbols/
+    https://www.w3schools.com/html/html_entities.asp -->
+    
+</body>
+</html>

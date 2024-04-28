@@ -1,0 +1,27 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+/* .colorG{
+    color: greenyellow;
+} */
+
+.red{
+    color: red;
+}
+.colorB{
+    color: aqua;
+}
+.bgc{
+    background-color: rgba(244, 222, 242, 0.95);
+}
+
+    #gender,#ethnic,#religion{
+        width: 300px;
+    }
+
+#course {
+    width: 320px;
+    
+}
+
